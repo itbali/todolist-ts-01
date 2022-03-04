@@ -7,6 +7,11 @@
   margin-right: 50px;
 }
 
+.normal {
+  border: 1px solid #0d720d;
+  box-shadow: 0 0 2px 2px greenyellow;
+  }
+
 .error {
   border: red 1px solid;
 }
@@ -22,3 +27,11 @@
 .is-done {
   opacity: 0.5;
 }
+
+div .is-done {
+  opacity: 0.1;
+  }
+
+button:active {
+  background-color: red;
+  }
